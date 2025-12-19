@@ -1,1 +1,17 @@
+[
+  {
+    "id": 1,
+    "nom": "Dragon de Feu",
+    "type": "Feu",
+    "attaque": 80,
+    "image": "images/dragon.png"
+  },
+  {
+    "id": 2,
+    "nom": "Golem de Pierre",
+    "type": "Terre",
+    "attaque": 60,
+    "image": "images/golem.png"
+  }
+]
 
