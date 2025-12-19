@@ -1,12 +1,52 @@
 [
   {
-    "nom": "Dragon Ardant",
-    "couleurs": ["rouge"],
-    "image": "images/dragon.png"
+    "nom": "Vox",
+    "couleurs": ["bleu", "violet"],
+    "image": "images/Vox1.png"
   },
   {
-    "nom": "Esprit des Océans",
-    "couleurs": ["bleu", "blanc"],
-    "image": "images/ocean.png"
+    "nom": "Angel Dust",
+    "couleurs": ["bleu"],
+    "image": "images/Angel1.png"
+  },
+  {
+    "nom": "Katie Killjoy",
+    "couleurs": ["violet"],
+    "image": "images/Katie1.png"
+  },
+  {
+    "nom": "Les Vees",
+    "couleurs": ["violet"],
+    "image": "images/LesVees1.png"
+  },
+  {
+    "nom": "Tom Trench",
+    "couleurs": ["bleu"],
+    "image": "images/Tom1.png"
+  },
+  {
+    "nom": "Valentino",
+    "couleurs": ["violet"],
+    "image": "images/Valentino1.png"
+  },
+  {
+    "nom": "Velvette",
+    "couleurs": ["violet"],
+    "image": "images/Velvette1.png"
+  },
+  {
+    "nom": "Vox",
+    "couleurs": ["violet"],
+    "image": "images/Vox2.png"
+  },
+  {
+    "nom": "VOX DEI",
+    "couleurs": ["violet"],
+    "image": "images/VoxDei1.png"
+  },
+  {
+    "nom": "VOX POPULI",
+    "couleurs": ["violet"],
+    "image": "images/VoxPopuli1.png"
   }
 ]
