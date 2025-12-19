@@ -48,5 +48,145 @@
     "nom": "VOX POPULI",
     "couleurs": ["violet"],
     "image": "images/VoxPopuli1.png"
+  },
+  {
+    "nom": "Alastor",
+    "couleurs": ["jaune"],
+    "image": "images/Alastor1.png"
+  },
+  {
+    "nom": "Alastor",
+    "couleurs": ["violet"],
+    "image": "images/Alastor2.png"
+  },
+  {
+    "nom": "L'amour en Bouteille, c'est toujours pareil",
+    "couleurs": ["Bleu"],
+    "image": "images/AmourBouteille1.png"
+  },
+  {
+    "nom": "Angel Dust",
+    "couleurs": ["vert"],
+    "image": "images/Angel2.png"
+  },
+  {
+    "nom": "Angel Dust",
+    "couleurs": ["bleu"],
+    "image": "images/Angel3.png"
+  },
+  {
+    "nom": "Baxter",
+    "couleurs": ["vert"],
+    "image": "images/Baster1.png"
+  },
+  {
+    "nom": "Si on bouffe notre merde ensemble, on aura un meilleure vie",
+    "couleurs": ["Bleu"],
+    "image": "images/BouffeMerde1.png"
+  },
+  {
+    "nom": "Carmilla",
+    "couleurs": ["bleu"],
+    "image": "images/Carmilla1.png"
+  },
+  {
+    "nom": "Charlie",
+    "couleurs": ["jaune","vert"],
+    "image": "images/Charlie1.png"
+  },
+  {
+    "nom": "Cherry Bomb",
+    "couleurs": ["vert"],
+    "image": "images/Cherry1.png"
+  },
+  {
+    "nom": "Demander pardon",
+    "couleurs": ["jaune"],
+    "image": "images/Demanderpardon1.png"
+  },
+  {
+    "nom": "Frank",
+    "couleurs": ["jaune"],
+    "image": "images/Frank1.png"
+  },
+  {
+    "nom": "Garantie Hazbin",
+    "couleurs": ["vert"],
+    "image": "images/GarantieHazbin1.png"
+  },
+  {
+    "nom": "Husk",
+    "couleurs": ["vert"],
+    "image": "images/Husk1.png"
+  },
+  {
+    "nom": "Husk",
+    "couleurs": ["bleu"],
+    "image": "images/Husk2.png"
+  },
+  {
+    "nom": "Husk",
+    "couleurs": ["vert","bleu"],
+    "image": "images/Husk3.png"
+  },
+  {
+    "nom": "Nifty",
+    "couleurs": ["jaune"],
+    "image": "images/Nifty1.png"
+  },
+  {
+    "nom": "Prête a Tout",
+    "couleurs": ["vert"],
+    "image": "images/PreteATout1.png"
+  },
+  {
+    "nom": "Rooster",
+    "couleurs": ["jaune"],
+    "image": "images/Nifty1.png"
+  },
+  {
+    "nom": "Vox et Shok.Wav",
+    "couleurs": ["violet"],
+    "image": "images/ShockWav1.png"
+  },
+  {
+    "nom": "Sir Pentious",
+    "couleurs": ["jaune"],
+    "image": "images/SirPentious1.png"
+  },
+  {
+    "nom": "Super Journee en Enfer",
+    "couleurs": ["vert"],
+    "image": "images/Superjournee1.png"
+  },
+  {
+    "nom": "La Tour des Vees",
+    "couleurs": ["violet"],
+    "image": "images/TourVees1.png"
+  },
+  {
+    "nom": "Trust Us",
+    "couleurs": ["violet"],
+    "image": "images/TrustUs1.png"
+  },
+  {
+    "nom": "Vaggie",
+    "couleurs": ["vert"],
+    "image": "images/Vaggie1.png"
+  },
+  {
+    "nom": "Vox",
+    "couleurs": ["bleu"],
+    "image": "images/Vox3.png"
+  },
+  {
+    "nom": "Zeezi",
+    "couleurs": ["bleu"],
+    "image": "images/Zeezi1.png"
+  },
+  {
+    "nom": "Zestial",
+    "couleurs": ["bleu"],
+    "image": "images/Zestial1.png"
   }
 ]
