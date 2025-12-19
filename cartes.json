@@ -82,7 +82,7 @@
   {
     "nom": "Si on bouffe notre merde ensemble, on aura un meilleure vie",
     "couleurs": ["Bleu"],
-    "image": "images/BouffeMerde1.png"
+    "image": "images/BouffeMerde.png"
   },
   {
     "nom": "Carmilla",
@@ -132,7 +132,7 @@
   {
     "nom": "Nifty",
     "couleurs": ["jaune"],
-    "image": "images/Nifty1.png"
+    "image": "images/Nifty.png"
   },
   {
     "nom": "Prête a Tout",
@@ -142,7 +142,7 @@
   {
     "nom": "Rooster",
     "couleurs": ["jaune"],
-    "image": "images/Nifty1.png"
+    "image": "images/Rooster.png"
   },
   {
     "nom": "Vox et Shok.Wav",
@@ -152,12 +152,12 @@
   {
     "nom": "Sir Pentious",
     "couleurs": ["jaune"],
-    "image": "images/SirPentious1.png"
+    "image": "images/SirPentious.png"
   },
   {
     "nom": "Super Journee en Enfer",
     "couleurs": ["vert"],
-    "image": "images/Superjournee1.png"
+    "image": "images/SuperJournee1.png"
   },
   {
     "nom": "La Tour des Vees",
