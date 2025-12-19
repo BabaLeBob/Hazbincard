@@ -2,12 +2,30 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Mes Cartes</title>
+    <title>Ma collection de cartes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>📇 Ma collection de cartes</h1>
+<h1>🎴 Ma collection de cartes</h1>
+
+<!-- BARRE DE RECHERCHE -->
+<div class="filtres">
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Rechercher une carte..."
+    >
+
+    <div class="checkboxes">
+        <label><input type="checkbox" value="rouge"> Rouge</label>
+        <label><input type="checkbox" value="bleu"> Bleu</label>
+        <label><input type="checkbox" value="vert"> Vert</label>
+        <label><input type="checkbox" value="blanc"> Blanc</label>
+        <label><input type="checkbox" value="noir"> Noir</label>
+    </div>
+</div>
 
 <div id="cartes-container"></div>
 

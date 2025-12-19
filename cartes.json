@@ -1,17 +1,12 @@
 [
   {
-    "id": 1,
-    "nom": "Dragon de Feu",
-    "type": "Feu",
-    "attaque": 80,
+    "nom": "Dragon Ardant",
+    "couleurs": ["rouge"],
     "image": "images/dragon.png"
   },
   {
-    "id": 2,
-    "nom": "Golem de Pierre",
-    "type": "Terre",
-    "attaque": 60,
-    "image": "images/golem.png"
+    "nom": "Esprit des Océans",
+    "couleurs": ["bleu", "blanc"],
+    "image": "images/ocean.png"
   }
 ]
-
