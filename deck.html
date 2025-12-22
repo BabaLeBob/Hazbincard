@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Créateur de Deck</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🧠 Création de Deck</h1>
+<a href="index.html">⬅ Retour aux cartes</a>
+
+<div class="deck-builder">
+
+  <div class="cartes-list">
+    <h2>Cartes disponibles</h2>
+    <div id="cartes-dispo"></div>
+  </div>
+
+  <div class="deck">
+    <h2>Deck (<span id="deck-count">0</span>/51)</h2>
+
+    <div class="deck-actions">
+      <button id="exportDeck">📤 Exporter</button>
+      <input type="file" id="importDeck" accept=".txt">
+    </div>
+
+    <div id="deck-cartes"></div>
+  </div>
+
+</div>
+
+<script src="deck.js"></script>
+</body>
+</html>

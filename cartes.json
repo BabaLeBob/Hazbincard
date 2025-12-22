@@ -1,190 +1,228 @@
 [
   {
+    "id": 1,
     "nom": "Vox",
     "couleurs": ["bleu", "violet"],
     "image": "images/Vox1.png"
   },
   {
+    "id": 2,
     "nom": "Angel Dust",
     "couleurs": ["bleu"],
     "image": "images/Angel1.png"
   },
   {
+    "id": 3,
     "nom": "Katie Killjoy",
     "couleurs": ["violet"],
     "image": "images/Katie1.png"
   },
   {
+    "id": 4,
     "nom": "Les Vees",
     "couleurs": ["violet"],
     "image": "images/LesVees1.png"
   },
   {
+    "id": 5,
     "nom": "Tom Trench",
     "couleurs": ["bleu"],
     "image": "images/Tom1.png"
   },
   {
+    "id": 6,
     "nom": "Valentino",
     "couleurs": ["violet"],
     "image": "images/Valentino1.png"
   },
   {
+    "id": 7,
     "nom": "Velvette",
     "couleurs": ["violet"],
     "image": "images/Velvette1.png"
   },
   {
+    "id": 8,
     "nom": "Vox",
     "couleurs": ["violet"],
     "image": "images/Vox2.png"
   },
   {
+    "id": 9,
     "nom": "VOX DEI",
     "couleurs": ["violet"],
     "image": "images/VoxDei1.png"
   },
   {
+    "id": 10,
     "nom": "VOX POPULI",
     "couleurs": ["violet"],
     "image": "images/VoxPopuli1.png"
   },
   {
+    "id": 11,
     "nom": "Alastor",
     "couleurs": ["jaune"],
     "image": "images/Alastor1.png"
   },
   {
+    "id": 12,
     "nom": "Alastor",
     "couleurs": ["violet"],
     "image": "images/Alastor2.png"
   },
   {
+    "id": 13,
     "nom": "L'amour en Bouteille, c'est toujours pareil",
     "couleurs": ["Bleu"],
     "image": "images/AmourBouteille1.png"
   },
   {
+    "id": 14,
     "nom": "Angel Dust",
     "couleurs": ["vert"],
     "image": "images/Angel2.png"
   },
   {
+    "id": 15,
     "nom": "Angel Dust",
     "couleurs": ["bleu"],
     "image": "images/Angel3.png"
   },
   {
+    "id": 16,
     "nom": "Baxter",
     "couleurs": ["vert"],
     "image": "images/Baster1.png"
   },
   {
+    "id": 17,
     "nom": "Si on bouffe notre merde ensemble, on aura un meilleure vie",
     "couleurs": ["Bleu"],
     "image": "images/BouffeMerde.png"
   },
   {
+    "id": 18,
     "nom": "Carmilla",
     "couleurs": ["bleu"],
     "image": "images/Carmilla1.png"
   },
   {
+    "id": 19,
     "nom": "Charlie",
     "couleurs": ["jaune","vert"],
     "image": "images/Charlie1.png"
   },
   {
+    "id": 20,
     "nom": "Cherry Bomb",
     "couleurs": ["vert"],
     "image": "images/Cherry1.png"
   },
   {
+    "id": 21,
     "nom": "Demander pardon",
     "couleurs": ["jaune"],
     "image": "images/Demanderpardon1.png"
   },
   {
+    "id": 22,
     "nom": "Frank",
     "couleurs": ["jaune"],
     "image": "images/Frank1.png"
   },
   {
+    "id": 23,
     "nom": "Garantie Hazbin",
     "couleurs": ["vert"],
     "image": "images/GarantieHazbin1.png"
   },
   {
+    "id": 24,
     "nom": "Husk",
     "couleurs": ["vert"],
     "image": "images/Husk1.png"
   },
   {
+    "id": 25,
     "nom": "Husk",
     "couleurs": ["bleu"],
     "image": "images/Husk2.png"
   },
   {
+    "id": 26,
     "nom": "Husk",
     "couleurs": ["vert","bleu"],
     "image": "images/Husk3.png"
   },
   {
+    "id": 27,
     "nom": "Nifty",
     "couleurs": ["jaune"],
     "image": "images/Nifty.png"
   },
   {
+    "id": 28,
     "nom": "Prête a Tout",
     "couleurs": ["vert"],
     "image": "images/PreteATout1.png"
   },
   {
+    "id": 29,
     "nom": "Rooster",
     "couleurs": ["jaune"],
     "image": "images/Rooster.png"
   },
   {
+    "id": 30,
     "nom": "Vox et Shok.Wav",
     "couleurs": ["violet"],
     "image": "images/ShockWav1.png"
   },
   {
+    "id": 31,
     "nom": "Sir Pentious",
     "couleurs": ["jaune"],
     "image": "images/SirPentious.png"
   },
   {
+    "id": 32,
     "nom": "Super Journee en Enfer",
     "couleurs": ["vert"],
     "image": "images/SuperJournee1.png"
   },
   {
+    "id": 33,
     "nom": "La Tour des Vees",
     "couleurs": ["violet"],
     "image": "images/TourVees1.png"
   },
   {
+    "id": 34,
     "nom": "Trust Us",
     "couleurs": ["violet"],
     "image": "images/TrustUs1.png"
   },
   {
+    "id": 35,
     "nom": "Vaggie",
     "couleurs": ["vert"],
     "image": "images/Vaggie1.png"
   },
   {
+    "id": 36,
     "nom": "Vox",
     "couleurs": ["bleu"],
     "image": "images/Vox3.png"
   },
   {
+    "id": 37,
     "nom": "Zeezi",
     "couleurs": ["bleu"],
     "image": "images/Zeezi1.png"
   },
   {
+    "id": 38,
     "nom": "Zestial",
     "couleurs": ["bleu"],
     "image": "images/Zestial1.png"
