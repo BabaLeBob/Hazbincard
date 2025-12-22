@@ -14,7 +14,7 @@ fetch("cartes.json")
 const exportBtn = document.getElementById("exportDeck");
 const importInput = document.getElementById("importDeck");
 
-/* ===== CARTES DISPO ===== */
+/* ===== CARTES DISPONIBLES ===== */
 function afficherCartesDisponibles() {
   const container = document.getElementById("cartes-dispo");
   container.innerHTML = "";
@@ -22,10 +22,13 @@ function afficherCartesDisponibles() {
   toutesLesCartes.forEach(carte => {
     const div = document.createElement("div");
     div.className = "carte-mini";
+
     div.innerHTML = `
-      <span>${carte.nom} <small>(${carte.id})</small></span>
+      <img src="${carte.image}" alt="${carte.nom}">
+      <span class="nom">${carte.nom}</span>
       <span class="carte-count">+</span>
     `;
+
     div.addEventListener("click", () => ajouterCarte(carte.id));
     container.appendChild(div);
   });
@@ -33,9 +36,17 @@ function afficherCartesDisponibles() {
 
 /* ===== AJOUT / RETRAIT ===== */
 function ajouterCarte(id) {
-  if (totalCartesDeck() >= 51) return alert("51 cartes max");
+  if (totalCartesDeck() >= 51) {
+    alert("Deck limité à 51 cartes maximum");
+    return;
+  }
+
   if (!deck[id]) deck[id] = 0;
-  if (deck[id] >= 4) return alert("4 exemplaires max");
+
+  if (deck[id] >= 4) {
+    alert("Maximum 4 exemplaires par carte");
+    return;
+  }
 
   deck[id]++;
   afficherDeck();
@@ -43,24 +54,31 @@ function ajouterCarte(id) {
 
 function retirerCarte(id) {
   if (!deck[id]) return;
+
   deck[id]--;
   if (deck[id] === 0) delete deck[id];
+
   afficherDeck();
 }
 
-/* ===== AFFICHAGE DECK ===== */
+/* ===== AFFICHAGE DU DECK ===== */
 function afficherDeck() {
   const container = document.getElementById("deck-cartes");
   container.innerHTML = "";
 
   Object.entries(deck).forEach(([id, qty]) => {
     const carte = cartesParId[id];
+    if (!carte) return;
+
     const div = document.createElement("div");
     div.className = "carte-mini";
+
     div.innerHTML = `
-      <span>${carte.nom} <small>(${id})</small></span>
+      <img src="${carte.image}" alt="${carte.nom}">
+      <span class="nom">${carte.nom}</span>
       <span class="carte-count">x${qty}</span>
     `;
+
     div.addEventListener("click", () => retirerCarte(id));
     container.appendChild(div);
   });
@@ -68,7 +86,7 @@ function afficherDeck() {
   document.getElementById("deck-count").textContent = totalCartesDeck();
 }
 
-/* ===== EXPORT TXT ===== */
+/* ===== EXPORT TXT (ID INTERNE) ===== */
 exportBtn.addEventListener("click", () => {
   let txt = "";
   Object.entries(deck).forEach(([id, qty]) => {
@@ -90,13 +108,30 @@ importInput.addEventListener("change", e => {
   const reader = new FileReader();
   reader.onload = () => {
     deck = {};
+
     reader.result.split("\n").forEach(line => {
-      const [qty, id] = line.trim().split(" ");
-      if (!cartesParId[id]) return;
-      deck[id] = Math.min(parseInt(qty), 4);
+      line = line.trim();
+      if (!line) return;
+
+      const [qtyStr, id] = line.split(" ");
+      const qty = parseInt(qtyStr);
+
+      if (!cartesParId[id] || isNaN(qty)) return;
+
+      deck[id] = Math.min(qty, 4);
     });
+
+    // Respect limite 51
+    Object.keys(deck).forEach(id => {
+      while (totalCartesDeck() > 51) {
+        deck[id]--;
+        if (deck[id] <= 0) delete deck[id];
+      }
+    });
+
     afficherDeck();
   };
+
   reader.readAsText(file);
 });
 

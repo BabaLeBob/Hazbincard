@@ -119,3 +119,47 @@ h1 {
     font-size: 28px;
     cursor: pointer;
 }
+
+/* CARTES MINI AVEC IMAGE */
+.carte-mini {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #ddd;
+    padding: 6px;
+    margin: 5px 0;
+    cursor: pointer;
+    background: #fff;
+}
+
+.carte-mini:hover {
+    background: #f4f4f4;
+}
+
+.carte-mini img {
+    width: 40px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.carte-mini .nom {
+    flex-grow: 1;
+    font-size: 14px;
+}
+
+.carte-count {
+    font-weight: bold;
+}
+.deck-actions {
+    margin-bottom: 10px;
+}
+
+.deck-actions button {
+    padding: 6px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.deck-actions input {
+    margin-top: 5px;
+}
