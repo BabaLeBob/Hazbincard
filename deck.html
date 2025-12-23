@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Créateur de Deck</title>
+  <title>Création de Deck</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -11,25 +11,31 @@
 <h1>🧠 Création de Deck</h1>
 <a href="index.html">⬅ Retour aux cartes</a>
 
-<div class="deck-builder">
+<!-- FILTRES -->
+<div class="filtres">
+  <input type="text" id="searchInput" placeholder="Rechercher une carte...">
 
-  <div class="cartes-list">
-    <h2>Cartes disponibles</h2>
-    <div id="cartes-dispo"></div>
+  <div class="checkboxes">
+    <label><input type="checkbox" value="rouge"> Rouge</label>
+    <label><input type="checkbox" value="bleu"> Bleu</label>
+    <label><input type="checkbox" value="vert"> Vert</label>
+    <label><input type="checkbox" value="violet"> Violet</label>
+    <label><input type="checkbox" value="noir"> Noir</label>
+    <label><input type="checkbox" value="jaune"> Jaune</label>
   </div>
-
-  <div class="deck">
-    <h2>Deck (<span id="deck-count">0</span>/51)</h2>
-
-    <div class="deck-actions">
-      <button id="exportDeck">📤 Exporter</button>
-      <input type="file" id="importDeck" accept=".txt">
-    </div>
-
-    <div id="deck-cartes"></div>
-  </div>
-
 </div>
+
+<h2>🃏 Cartes disponibles</h2>
+<div id="cartes-dispo" class="cartes-grid"></div>
+
+<h2>🧠 Deck (<span id="deck-count">0</span>/51)</h2>
+
+<div class="deck-actions">
+  <button id="exportDeck">📤 Exporter</button>
+  <input type="file" id="importDeck" accept=".txt">
+</div>
+
+<div id="deck-cartes" class="cartes-grid"></div>
 
 <script src="deck.js"></script>
 </body>

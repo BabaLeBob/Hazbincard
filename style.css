@@ -120,36 +120,43 @@ h1 {
     cursor: pointer;
 }
 
-/* CARTES MINI AVEC IMAGE */
-.carte-mini {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    border: 1px solid #ddd;
-    padding: 6px;
-    margin: 5px 0;
-    cursor: pointer;
-    background: #fff;
+/* GRILLE DE CARTES (comme accueil) */
+.cartes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 15px;
 }
 
-.carte-mini:hover {
-    background: #f4f4f4;
+/* CARTE VISUELLE */
+.carte {
+  border: 1px solid #ddd;
+  padding: 10px;
+  background: white;
+  cursor: pointer;
+  text-align: center;
 }
 
-.carte-mini img {
-    width: 40px;
-    height: auto;
-    border-radius: 4px;
+.carte:hover {
+  transform: scale(1.03);
 }
 
-.carte-mini .nom {
-    flex-grow: 1;
-    font-size: 14px;
+.carte img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
 }
 
-.carte-count {
-    font-weight: bold;
+/* NOM + COMPTEUR */
+.carte .nom {
+  font-weight: bold;
+  margin-top: 5px;
 }
+
+.carte .count {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
 .deck-actions {
     margin-bottom: 10px;
 }
