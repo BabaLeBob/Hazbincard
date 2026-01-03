@@ -226,5 +226,35 @@
     "nom": "Zestial",
     "couleurs": ["bleu"],
     "image": "images/Zestial1.png"
+  },
+  {
+    "id": 39,
+    "nom": "Angel Dust",
+    "couleurs": ["vert"],
+    "image": "images/Angel4.png"
+  },
+  {
+    "id": 40,
+    "nom": "Husk",
+    "couleurs": ["bleu"],
+    "image": "images/Husk4.png"
+  },
+  {
+    "id": 41,
+    "nom": "Blitzo",
+    "couleurs": ["rouge","violet"],
+    "image": "images/Blitzo1.png"
+  },
+  {
+    "id": 42,
+    "nom": "Velvette",
+    "couleurs": ["violet"],
+    "image": "images/Velvette2.png"
+  },
+  {
+    "id": 43,
+    "nom": "Vaggie",
+    "couleurs": ["jaune"],
+    "image": "images/Vaggie2.png"
   }
 ]
