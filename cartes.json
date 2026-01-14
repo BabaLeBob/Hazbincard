@@ -256,5 +256,257 @@
     "nom": "Vaggie",
     "couleurs": ["jaune"],
     "image": "images/Vaggie2.png"
+  },
+  {
+    "id": 44,
+    "nom": "Abel",
+    "couleurs": ["rouge"],
+    "image": "images/Abel1.png"
+  },
+  {
+    "id": 45,
+    "nom": "Adam",
+    "couleurs": ["rouge"],
+    "image": "images/Adam1.png"
+  },
+  {
+    "id": 46,
+    "nom": "Adam",
+    "couleurs": ["rouge"],
+    "image": "images/Adam2.png"
+  },
+  {
+    "id": 47,
+    "nom": "Adam",
+    "couleurs": ["rouge","vert"],
+    "image": "images/Adam3.png"
+  },
+  {
+    "id": 48,
+    "nom": "Alastor",
+    "couleurs": ["noir"],
+    "image": "images/Alastor3.png"
+  },
+  {
+    "id": 49,
+    "nom": "Alastor",
+    "couleurs": ["noir"],
+    "image": "images/Alastor4.png"
+  },
+  {
+    "id": 50,
+    "nom": "Alastor",
+    "couleurs": ["noir"],
+    "image": "images/Alastor5.png"
+  },
+  {
+    "id": 51,
+    "nom": "Angel Dust",
+    "couleurs": ["bleu"],
+    "image": "images/Angel5.png"
+  },
+  {
+    "id": 52,
+    "nom": "Angel Dust",
+    "couleurs": ["jaune"],
+    "image": "images/Angel6.png"
+  },
+  {
+    "id": 52,
+    "nom": "Charlie Morningstar",
+    "couleurs": ["noir"],
+    "image": "images/Angel2.png"
+  },
+  {
+    "id": 53,
+    "nom": "Charlie Morningstar",
+    "couleurs": ["jaune"],
+    "image": "images/Angel3.png"
+  },
+  {
+    "id": 54,
+    "nom": "Emily",
+    "couleurs": ["vert"],
+    "image": "images/Emily1.png"
+  },
+  {
+    "id": 55,
+    "nom": "L'enfer est éternel !",
+    "couleurs": ["rouge"],
+    "image": "images/EnferEternelle.png"
+  },
+  {
+    "id": 56,
+    "nom": "Hazbin Hotel",
+    "couleurs": ["vert"],
+    "image": "images/Hazbin Hotel.png"
+  },
+  {
+    "id": 57,
+    "nom": "Husk",
+    "couleurs": ["noir"],
+    "image": "images/Husk5.png"
+  },
+  {
+    "id": 58,
+    "nom": "Husk",
+    "couleurs": ["jaune"],
+    "image": "images/Husk6.png"
+  },
+  {
+    "id": 59,
+    "nom": "Husk",
+    "couleurs": ["noir"],
+    "image": "images/Husk7.png"
+  },
+  {
+    "id": 60,
+    "nom": "Lilith",
+    "couleurs": ["rouge"],
+    "image": "images/Lilith1.png"
+  },
+  {
+    "id": 61,
+    "nom": "Lucifer",
+    "couleurs": ["jaune"],
+    "image": "images/Lucifer1.png"
+  },
+  {
+    "id": 62,
+    "nom": "Lute",
+    "couleurs": ["vert"],
+    "image": "images/Lute1.png"
+  },
+  {
+    "id": 63,
+    "nom": "Lute",
+    "couleurs": ["vert"],
+    "image": "images/Lute2.png"
+  },
+  {
+    "id": 64,
+    "nom": "Mimzy",
+    "couleurs": ["noir"],
+    "image": "images/Mimzy1.png"
+  },
+  {
+    "id": 65,
+    "nom": "Mimzy",
+    "couleurs": ["noir"],
+    "image": "images/Mimzy2.png"
+  },
+  {
+    "id": 66,
+    "nom": "Niffty",
+    "couleurs": ["noir"],
+    "image": "images/Nifty2.png"
+  },
+  {
+    "id": 67,
+    "nom": "Niffty",
+    "couleurs": ["noir"],
+    "image": "images/Nifty3.png"
+  },
+  {
+    "id": 68,
+    "nom": "Oratrice",
+    "couleurs": ["rouge"],
+    "image": "images/Oratrice.png"
+  },
+  {
+    "id": 69,
+    "nom": "Rooster",
+    "couleurs": ["jaune"],
+    "image": "images/Rooster2.png"
+  },
+  {
+    "id": 70,
+    "nom": "Rosie",
+    "couleurs": ["noir"],
+    "image": "images/Rosie1.png"
+  },
+  {
+    "id": 71,
+    "nom": "Rosie",
+    "couleurs": ["noir"],
+    "image": "images/Rosie2.png"
+  },
+  {
+    "id": 72,
+    "nom": "Saint Pierre",
+    "couleurs": ["vert"],
+    "image": "images/SaintPierre1.png"
+  },
+  {
+    "id": 73,
+    "nom": "Sera",
+    "couleurs": ["vert"],
+    "image": "images/Sera.png"
+  },
+  {
+    "id": 74,
+    "nom": "Sir Pentious",
+    "couleurs": ["rouge"],
+    "image": "images/SirPentious2.png"
+  },
+  {
+    "id": 75,
+    "nom": "On n'est jamais vraiment habillé sans un sourire.",
+    "couleurs": ["noir"],
+    "image": "images/Sourire.png"
+  },
+  {
+    "id": 76,
+    "nom": "Stayed Gone",
+    "couleurs": ["noir"],
+    "image": "images/StayedGone.png"
+  },
+  {
+    "id": 77,
+    "nom": "Tu te trompe de combat",
+    "couleurs": ["rouge"],
+    "image": "images/TrompeCombat.png"
+  },
+  {
+    "id": 78,
+    "nom": "Vaggie",
+    "couleurs": ["jaune"],
+    "image": "images/Vaggie3.png"
+  },
+  {
+    "id": 79,
+    "nom": "Vaggi et Charlie Morningstar",
+    "couleurs": ["jaune"],
+    "image": "images/VaggieCharlie.png"
+  },
+  {
+    "id": 80,
+    "nom": "Velvette",
+    "couleurs": ["violet"],
+    "image": "images/Velvette3.png"
+  },
+  {
+    "id": 81,
+    "nom": "Valentino",
+    "couleurs": ["violet"],
+    "image": "images/Velvette2.png"
+  },
+  {
+    "id": 82,
+    "nom": "Département de la mode de Velvette",
+    "couleurs": ["violet"],
+    "image": "images/VelvetteStage.png"
+  },
+  {
+    "id": 83,
+    "nom": "Vox",
+    "couleurs": ["violet"],
+    "image": "images/Vox4.png"
+  },
+  {
+    "id": 84,
+    "nom": "Vox",
+    "couleurs": ["bleu"],
+    "image": "images/Vox5.png"
   }
 ]
