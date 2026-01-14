@@ -312,16 +312,10 @@
     "image": "images/Angel6.png"
   },
   {
-    "id": 52,
-    "nom": "Charlie Morningstar",
-    "couleurs": ["noir"],
-    "image": "images/Angel2.png"
-  },
-  {
     "id": 53,
     "nom": "Charlie Morningstar",
     "couleurs": ["jaune"],
-    "image": "images/Angel3.png"
+    "image": "images/Charlie3.png"
   },
   {
     "id": 54,
@@ -339,7 +333,7 @@
     "id": 56,
     "nom": "Hazbin Hotel",
     "couleurs": ["vert"],
-    "image": "images/Hazbin Hotel.png"
+    "image": "images/HazbinHotel.png"
   },
   {
     "id": 57,
@@ -508,5 +502,11 @@
     "nom": "Vox",
     "couleurs": ["bleu"],
     "image": "images/Vox5.png"
+  },
+  {
+    "id": 85,
+    "nom": "Charlie Morningstar",
+    "couleurs": ["noir"],
+    "image": "images/Charlie22.png"
   }
 ]
