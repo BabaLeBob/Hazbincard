@@ -507,6 +507,12 @@
     "id": 85,
     "nom": "Charlie Morningstar",
     "couleurs": ["noir"],
-    "image": "images/Charlie22.png"
+    "image": "images/Charlie2.png"
+  },
+  {
+    "id": 86,
+    "nom": "Tu seras meilleur ! Meilleur que tous ce qui t'ont précédé !",
+    "couleurs": ["violet"],
+    "image": "images/Meilleur.png"
   }
 ]
